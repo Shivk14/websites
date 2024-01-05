@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Subscription Offers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f0e0e;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #e50914;
+            font-size: 60px;
+        }
+
+        .subscription-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .subscription {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .subscription h2 {
+            color: #e50914;
+        }
+
+        .subscription p {
+            color: #333333;
+        }
+        .subscription button:hover{
+            background: skyblue;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Netflix Subscription Offers</h1>
+
+<div class="subscription-container">
+    <div class="subscription">
+        <h2>Basic Plan</h2>
+        <p>Watch on 1 screen at a time. Standard Definition.</p>
+        <p>Price: $8.99/month</p>
+        <a href="buying.html"><button type="submit">Buy</button></a>
+    </div>
+
+    <div class="subscription">
+        <h2>Standard Plan</h2>
+        <p>Watch on 2 screens at a time. High Definition.</p>
+        <p>Price: $13.99/month</p>
+        <a href="buying.html"><button type="submit">Buy</button></a>
+    </div>
+
+    <div class="subscription">
+        <h2>Premium Plan</h2>
+        <p>Watch on 4 screens at a time. Ultra HD available.</p>
+        <p>Price: $17.99/month</p>
+        <a href="buying.html"><button type="submit">Buy</button></a>
+    </div>
+</div>
+
+</body>
+</html>
